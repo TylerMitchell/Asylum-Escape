@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title> Ludum Dare 21: Asylum Escape </title>
+		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="Main.js"></script>
+	</head>
+	
+	<body>
+		<div id="container">
+			<canvas id="canvas" width="600" height="400">
+				<p>Your browser does not support the canvas element.</p>
+			</canvas>
+			<menu id="controls">
+				<button type="button" id="slap">Slap</button>
+				<button type="button" id="breathefire">Breathe Fire</button>
+				<button type="button" id="rage">Rage</button>
+				<button type="button" id="recover">Recover</button>
+			</menu>
+		</div>
+		You were locked in the asylum because you belived you could breathe fire. 
+		<br /> To excape from this madhouse you will have to kill nurses, janitors, and fellow psychopaths to find the key to the exit. 
+		<br /> The farthest left bar is your health meter. If you run out of health, you lose.
+		<br /> The next bar is your rage meter. Keep it 1/2 red and 1/2 yellow to maximize attack damage.
+		<br /> If your rage meter fills all the way up, you lose what is left of your mind. You lose the game.
+		<br /> If your rage meter goes down to zero you become complacent and lose your will to escape. You lose the game.
+		<br /> The furthest right bar is your Magic meter. Maybe it does somthing.
+		<br /> Use the arrow keys to navigate the map. Walk into the same square as an enemy to do battle.
+		<br />
+		<br /> I want to be honest and stop working on my game at 48 hours. 
+		<br /> So I am uploading this game with the bug that after using an attack, you can't see the effects of it.
+		<br /> <img src="Inmate.png" alt="Inmate Symbol" />Psychopath Health: 35<img src="Nurse.png" alt="Nurse Symbol" /> Nurse Health: 65 <img src="Janitor.png" alt="Janitor Symbol" />Janitor Health: 70
+		<br /> Here they are:
+		<br /> Slap maxDamage = 20, lose 5 rage,
+		<br /> Breathe Fire maxDamage = 80, lose 25 magic
+		<br /> Rage maxDamage = 10, gain 25 rage
+		<br /> Recover maxDamage = 0, gain 40 health, lose 10 magic
+	</body>
+</html>
